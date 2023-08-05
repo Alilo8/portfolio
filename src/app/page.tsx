@@ -12,7 +12,7 @@ export default function Home() {
     const headline_first = app.current?.children[0].children[0]!
     const headline_second = headline_first?.nextSibling
 
-    gsap.to(app, {css: {visibility: 'none'}, duration: .8})
+    gsap.to(app, {css: {visibility: 'hidden'}, duration: .8})
     tl.from(
       headline_first, 
       {y:44, ease:"power3.easeOut", opacity: 0, delay: .8, duration: 1, stagger: {
@@ -25,7 +25,7 @@ export default function Home() {
       <Navbar />
       <main ref={app} className='top-20 absolute w-full'>
         <div className='flex flex-col justify-center items-center box-border h-[calc(100vh-80px)] text-center'>
-          <div className='text-4xl p-5'>Simple and Creative Design</div>
+          <div className='text-6xl p-5'>Simple and Creative Design</div>
           <div>It is free to try</div>
         </div>
         <div className='flex flex-col'>

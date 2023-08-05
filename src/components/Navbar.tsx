@@ -9,7 +9,7 @@ const Navbar = () => {
                     {title: 'Contact', link: '/', delay: '500ms'},
                     {title: 'About', link: '/', delay: '600ms'},]
     return (
-        <nav className='flex bg-black opacity-70 justify-between items-center  text-gray-400 px-10 py-7 w-screen fixed text-xl z-10'>
+        <nav className='flex bg-black justify-between items-center  text-gray-400 px-10 py-7 w-screen fixed text-xl z-10'>
             <span className='text-2xl'>Portfolio</span>
             <ul className={`flex flex-col bg-black absolute justify-center items-center w-screen top-20 gap-10 ${menuOpen ? 'left-0' : 'left-[100%]'} py-10 transition-[left] duration-500`}>
                 {nav_items.map(nav_item => (
