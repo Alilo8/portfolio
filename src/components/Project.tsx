@@ -20,7 +20,7 @@ function Project({link}: ProjectProps) {
     tl.to(container_ref.current, {y: -200, filter: "blur(0px)", scrollTrigger: {trigger: container_ref.current, start: 'top bottom', end: 'center bottom', scrub: true} }, 1)
     .from(details, {x: '-200%', scale: 2, scrollTrigger: {trigger: details, start: 'top 90%', end: 'top 80%', scrub: true} }, 1)
     .from(details, {backgroundColor: 'white', scrollTrigger: {trigger: details, start: 'top 80%', end: 'top 80%', scrub: true} }, 1)
-    .from(client, {x: '-200%', scale: 2, scrollTrigger: {trigger: container_ref.current, start: '70% bottom', end: '70% 90%', scrub: true, markers: true} }, 1)
+    .from(client, {x: '-200%', scale: 2, scrollTrigger: {trigger: container_ref.current, start: '70% bottom', end: '70% 90%', scrub: true} }, 1)
     .from(client, {backgroundColor: 'white', scrollTrigger: {trigger: container_ref.current, start: '70% 90%', end: '70% 90%', scrub: true,} }, 1)
     .from(ex_link, {x: '300%', scale: 2, scrollTrigger: {trigger: container_ref.current, start: '70% bottom', end: '70% 90%', scrub: true,} }, 1)
     .from(ex_link, {backgroundColor: 'white', scrollTrigger: {trigger: container_ref.current, start: '70% 90%', end: '70% 90%', scrub: true,} }, 1)

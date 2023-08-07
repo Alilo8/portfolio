@@ -6,5 +6,5 @@ import external_link_icon from './external_link_icon.svg'
 export {
     sample,
     sample2,
-    external_link_icon
+    external_link_icon,
 }
